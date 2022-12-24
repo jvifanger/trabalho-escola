@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:77a19d678d363b01d8068691c836fa8673d94ccfc73773297d49a899a2207bef
-size 623
+fileFormatVersion: 2
+guid: ad9a5f33e0defdf448073961fa681a6c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Averia Sans Libre
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e8bb663bdd719694d9127ca2300a51e9, type: 3}
+  - {fileID: 12800000, guid: 3cdc3e7e90760b342b64225d9b0de17b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

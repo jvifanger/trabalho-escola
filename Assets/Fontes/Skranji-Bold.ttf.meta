@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da01e7dcbb1b9491439369d66442291f3b75ed428767007af6a84def98360feb
-size 472
+fileFormatVersion: 2
+guid: 982a228b5a43c00458a533f6ed74a1ee
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Skranji
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
