@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b95a13305ebe6c1e9533e565a71baed9b1718a72f1c0cef933418ba57acfc4c6
-size 768
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class temaInfo : MonoBehaviour
+{
+    public int idTema;
+
+    public GameObject barra;
+    public GameObject orbe;
+
+    private int notaFinal;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+        barra.SetActive(false);
+        orbe.SetActive(false);
+
+        int notaFinal = PlayerPrefs.GetInt("notaFinalTemp"+idTema.ToString());
+        
+        if(notaFinal == 10)
+        {
+            barra.SetActive(true);
+            orbe.SetActive(true);
+        }else 
+        {
+            barra.SetActive(false);
+            orbe.SetActive(false);
+        }
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
